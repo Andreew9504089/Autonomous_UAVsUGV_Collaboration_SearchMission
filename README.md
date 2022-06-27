@@ -50,29 +50,12 @@ sudo apt-get install ros-melodic-husky-simulator
 roslaunch rotors_gazebo challenge.launch 
 ```
 
-![](https://i.imgur.com/NNoYdvO.png)
 
-## Run position controller 
+
+## Run 
 ```
 roslaunch rotors_gazebo control_challenge.launch 
 ```
-![](https://i.imgur.com/M255jPo.png)
 
 
-
-# Challenge 1
-## Requirements
-```
-cd apriltag
-cmake .
-sudo make install
-```
-## Apriltag tutorial
-https://blog.csdn.net/wangmj_hdu/article/details/112668252
-## Run Apriltag_detector
-```
-roslaunch apriltag_ros continuous_detection.launch
-rostopic echo /tag_detections
-```
-![](https://i.imgur.com/8Ptwd8p.png)
 
